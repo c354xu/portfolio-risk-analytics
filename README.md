@@ -63,24 +63,6 @@ The project evaluates portfolio sensitivity under adverse market scenarios, incl
 - yfinance
 - Jupyter Notebook
 
-## Project Structure
-
-```text
-portfolio-risk-analytics/
-│
-├── README.md
-├── requirements.txt
-│
-├── data/
-│
-├── notebooks/
-│   ├── 01_data_collection.ipynb
-│   ├── 02_portfolio_analysis.ipynb
-│   ├── 03_risk_analysis.ipynb
-│   └── 04_stress_testing.ipynb
-│
-└── results/
-
 ## Results
 
 ### Portfolio Growth
@@ -138,3 +120,21 @@ Potential extensions include:
 - Conditional Value at Risk optimization
 - Interactive Streamlit dashboard
 - Real-time market data integration
+
+## Project Structure
+
+```text
+portfolio-risk-analytics/
+│
+├── README.md
+├── requirements.txt
+│
+├── data/
+│
+├── notebooks/
+│   ├── 01_data_collection.ipynb
+│   ├── 02_portfolio_analysis.ipynb
+│   ├── 03_risk_analysis.ipynb
+│   └── 04_stress_testing.ipynb
+│
+└── results/
